@@ -6,5 +6,5 @@ permalink: /Python/
 theme: jekyll-theme-cayman
 ---
 
-# Other
+## Other
 Description.
