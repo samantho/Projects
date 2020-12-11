@@ -1,5 +1,7 @@
 # Samantha Anthony Projects
 
+## [Home](https://samantho.github.io/Projects/)
+
 ## [R](https://samantho.github.io/Projects/R)
 
 ## [Python](https://samantho.github.io/Projects/Python)
