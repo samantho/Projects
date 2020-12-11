@@ -40,15 +40,18 @@
         width: 25%;
         border-radius: 50%;
       }
+      .parent {
+        overflow: hidden;
+      }
     </style>
   </head>
 
   <body>
     <header class="page-header" role="banner">
+      <div class="parent">
       <a href=https://github.com/samantho>
         <img class="profile-image" src="https://raw.githubusercontent.com/samantho/Projects/main/_layouts/profile.png">
       </a>
-      <div>
         <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
         <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       </div>
