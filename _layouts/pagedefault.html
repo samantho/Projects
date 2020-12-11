@@ -21,8 +21,10 @@
       .topnav {
         overflow: hidden;
         background-color: #165899;
+        position: fixed; 
+        top:0; 
+        width:100%;
       }
-
       .topnav a {
         float: left;
         color:  #f2f2f2;
@@ -36,15 +38,33 @@
         background-color: #159858;
         text-decoration: none;
       }
+      #content {
+        margin-top: 30px;
+      }
+      .menu-item {
+        float:left;
+      }
+      .profile {
+        float: right;
+      }
+      .profile-image-small {
+      	float: left;
+        height: 25px;
+        border-radius: 50%;
+        border: 2px solid white;
+      }
     </style>
   </head>
   <body>
     <div class="topnav">
-      <a class="active" href="https://samantho.github.io/Projects/">Home</a>
-        <a href="https://samantho.github.io/Projects/R"> R </a>
-        <a href="https://samantho.github.io/Projects/Python">Python</a>
-        <a href="https://samantho.github.io/Projects/Java">Java</a>
-        <a href="https://samantho.github.io/Projects/GEE">Google Earth</a>
+      <a class="active" href="https://samantho.github.io/Projects/" class="menu-item">Home</a>
+        <a href="https://samantho.github.io/Projects/R" class="menu-item"> R </a>
+        <a href="https://samantho.github.io/Projects/Python" class="menu-item">Python</a>
+        <a href="https://samantho.github.io/Projects/Java" class="menu-item">Java</a>
+        <a href="https://samantho.github.io/Projects/GEE" class="menu-item">Google Earth</a>
+        <a href=https://github.com/samantho class="profile">
+          <img class="profile-image-small" src="https://raw.githubusercontent.com/samantho/Projects/main/_layouts/profile.png">
+        </a>
     </div>
     <main id="content" class="main-content" role="main">
       {{ content }}
