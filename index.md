@@ -4,7 +4,7 @@ title: Samantha Anthony Projects
 ---
 
 <br>
-- 🔭 I’m currently working on **Analyzing US Economic Data with Python**
+- 🔭 I’m currently working on **Analyzing a User's Spotify Data with Python**
 
 - 🌱 I’m currently learning **Python for Data Science and AI**
 
